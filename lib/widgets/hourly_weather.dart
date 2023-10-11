@@ -64,52 +64,6 @@ class HourlyWeather extends StatelessWidget {
           );
         },
       ),
-      // child: LineChart(
-      //   LineChartData(
-      //     minY: 0,
-      //     maxY: 50,
-      //     minX: 0,
-      //     maxX: length.toDouble(),
-      //
-      //     gridData: FlGridData(
-      //       show: true,
-      //       getDrawingHorizontalLine: (value) {
-      //         return FlLine(
-      //           color: Pallete.inactiveTextColor,
-      //           strokeWidth: 1,
-      //         );
-      //       },
-      //       drawVerticalLine: true,
-      //     ),
-      //
-      //     borderData: FlBorderData(
-      //       show: false,
-      //     ),
-      //
-      //     lineBarsData: [
-      //       LineChartBarData(
-      //         isCurved: true,
-      //         barWidth: 3,
-      //         color: Pallete.barColor,
-      //         spots: [
-      //           FlSpot(0, 0),
-      //           FlSpot(5, 5),
-      //           FlSpot(10, 10),
-      //           FlSpot(15, 15),
-      //           FlSpot(20, 20),
-      //           FlSpot(25, 25),
-      //           FlSpot(30, 30),
-      //           FlSpot(35, 20),
-      //           FlSpot(40, 10),
-      //         ],
-      //         belowBarData: BarAreaData(
-      //           show: true,
-      //           color: Pallete.barGradientColor.withOpacity(0.3),
-      //         ),
-      //       ),
-      //     ],
-      //   ),
-      // )
     );
   }
 }

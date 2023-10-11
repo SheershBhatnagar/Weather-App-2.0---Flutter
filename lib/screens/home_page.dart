@@ -496,9 +496,9 @@ class _HomePageState extends State<HomePage> {
                   const SizedBox(height: 10,),
                   DataTable(
                     dataRowMaxHeight: 70,
-                    columns: const [
-                      DataColumn(label: Text("Detail")),
-                      DataColumn(label: Text("Description")),
+                    columns: [
+                      DataColumn(label: Text("Detail", style: Theme.of(context).textTheme.bodyMedium?.copyWith(fontSize: 14, fontWeight: FontWeight.w500))),
+                      DataColumn(label: Text("Description", style: Theme.of(context).textTheme.bodyMedium?.copyWith(fontSize: 14, fontWeight: FontWeight.w500))),
                     ],
                     rows: [
                       DataRow(cells: [
