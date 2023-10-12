@@ -1,5 +1,5 @@
 
-![Logo](https://github.com/SheershBhatnagar/Weather-App-2.0---Flutter/blob/master/lib/assets/icons/clouds.png)
+![Logo](https://github.com/SheershBhatnagar/Weather-App-2.0---Flutter/blob/master/assets/icons/clouds.png)
 
 
 # Weather App 2.0 - Flutter
