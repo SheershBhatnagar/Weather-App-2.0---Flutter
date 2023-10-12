@@ -3,8 +3,6 @@ import 'package:flutter/material.dart';
 
 import 'package:weather_app/widgets/weather_detail_widget.dart';
 
-import '../assets/assets_constants.dart';
-
 class WeatherDetailsCurrent extends StatelessWidget {
 
   final String windSpeed;
@@ -56,21 +54,21 @@ class WeatherDetailsCurrent extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
               WeatherDetailWidget(
-                asset: IconConstants.icWindSpeed,
+                asset: "assets/icons/windspeed.png",
                 value: windSpeed,
                 title: "Wind Speed",
                 isIcon: false,
                 icon: const Icon(Icons.add),
               ),
               WeatherDetailWidget(
-                asset: IconConstants.icWindDegree,
+                asset: "assets/icons/winddegree.png",
                 value: windDegree,
                 title: "Wind Degree",
                 isIcon: false,
                 icon: const Icon(Icons.add),
               ),
               WeatherDetailWidget(
-                asset: IconConstants.icPressure,
+                asset: "assets/icons/pressure.png",
                 value: pressure,
                 title: "Pressure",
                 isIcon: false,
@@ -82,21 +80,21 @@ class WeatherDetailsCurrent extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
               WeatherDetailWidget(
-                asset: IconConstants.icWindSpeed,
+                asset: "",
                 value: uvi,
                 title: "UV Index",
                 isIcon: true,
                 icon: const Icon(Icons.sunny),
               ),
               WeatherDetailWidget(
-                asset: IconConstants.icHumidity,
+                asset: "assets/icons/humidity.png",
                 value: humidity,
                 title: "Humidity",
                 isIcon: false,
                 icon: const Icon(Icons.add),
               ),
               WeatherDetailWidget(
-                asset: IconConstants.icWindSpeed,
+                asset: "",
                 value: visibility,
                 title: "Visibility",
                 isIcon: true,
@@ -108,21 +106,21 @@ class WeatherDetailsCurrent extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               WeatherDetailWidget(
-                asset: IconConstants.icClouds,
+                asset: "assets/icons/clouds.png",
                 value: clouds,
                 title: "Clouds",
                 isIcon: false,
                 icon: const Icon(Icons.sunny),
               ),
               WeatherDetailWidget(
-                asset: IconConstants.icWindSpeed,
+                asset: "",
                 value: dewPoint,
                 title: "Dew Point",
                 isIcon: true,
                 icon: const Icon(Icons.dew_point),
               ),
               WeatherDetailWidget(
-                asset: IconConstants.icWindSpeed,
+                asset: "",
                 value: windGust,
                 title: "Wind Gust",
                 isIcon: true,

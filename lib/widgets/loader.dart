@@ -1,7 +1,6 @@
 
 import 'package:flutter/material.dart';
 
-import 'package:weather_app/assets/assets_constants.dart';
 import 'package:weather_app/theme/pallete.dart';
 
 class Loader extends StatelessWidget {
@@ -26,7 +25,7 @@ class Loader extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Image.asset(
-            IconConstants.icClouds,
+            "assets/icons/clouds.png",
             width: 100,
           ),
           const SizedBox(height: 20),

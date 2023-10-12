@@ -3,8 +3,6 @@ import 'package:flutter/material.dart';
 
 import 'package:weather_app/widgets/weather_detail_widget.dart';
 
-import '../assets/assets_constants.dart';
-
 class RiseSetTimings extends StatelessWidget {
 
   final String sunrise;
@@ -47,28 +45,28 @@ class RiseSetTimings extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               WeatherDetailWidget(
-                asset: IconConstants.icSunrise,
+                asset: "assets/icons/sunrise.png",
                 value: sunrise,
                 title: "Sunrise",
                 isIcon: false,
                 icon: const Icon(Icons.co2),
               ),
               WeatherDetailWidget(
-                asset: IconConstants.icSunset,
+                asset: "assets/icons/sunset.png",
                 value: sunset,
                 title: "Sunset",
                 isIcon: false,
                 icon: const Icon(Icons.co2),
               ),
               WeatherDetailWidget(
-                asset: IconConstants.icMoonrise,
+                asset: "assets/icons/moonrise.png",
                 value: moonrise,
                 title: "Moonrise",
                 isIcon: false,
                 icon: const Icon(Icons.co2),
               ),
               WeatherDetailWidget(
-                asset: IconConstants.icMoonset,
+                asset: "assets/icons/moonset.png",
                 value: moonset,
                 title: "Moonset",
                 isIcon: false,

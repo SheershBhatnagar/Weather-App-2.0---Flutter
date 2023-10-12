@@ -37,7 +37,7 @@ class FrostedGlass extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
               Image.asset(
-                "lib/assets/weather/$icon.png",
+                "assets/weather/$icon.png",
                 width: 100,
                 height: 100,
               ),

@@ -3,8 +3,6 @@ import 'package:flutter/material.dart';
 
 import 'package:weather_app/widgets/weather_detail_widget.dart';
 
-import '../assets/assets_constants.dart';
-
 class OtherTemps extends StatelessWidget {
 
   final String morningTemp;
@@ -49,28 +47,28 @@ class OtherTemps extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               WeatherDetailWidget(
-                asset: IconConstants.icSunrise,
+                asset: "assets/icons/sunrise.png",
                 value: "$morningTemp°",
                 title: "Morning",
                 isIcon: false,
                 icon: const Icon(Icons.co2),
               ),
               WeatherDetailWidget(
-                asset: IconConstants.icDay,
+                asset: "assets/icons/day.png",
                 value: "$dayTemp°",
                 title: "Day",
                 isIcon: false,
                 icon: const Icon(Icons.co2),
               ),
               WeatherDetailWidget(
-                asset: IconConstants.icSunset,
+                asset: "assets/icons/sunset.png",
                 value: "$eveningTemp°",
                 title: "Evening",
                 isIcon: false,
                 icon: const Icon(Icons.co2),
               ),
               WeatherDetailWidget(
-                asset: IconConstants.icNight,
+                asset: "assets/icons/night.png",
                 value: "$nightTemp°",
                 title: "Night",
                 isIcon: false,
