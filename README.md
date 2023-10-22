@@ -4,7 +4,7 @@
 
 # Weather App 2.0 - Flutter
 
-The "Weather App 2.0" project utilizing the OpenWeatherMap API is a mobile application designed to provide users with up-to-date weather information. Users can easily access current weather conditions, forecasts, and related data for their selected locations. This project leverages the OpenWeatherMap API to fetch real-time weather data for current day & forecast of 7 days ahead, making it a valuable tool for users seeking accurate weather information on the go.
+The "Weather App 2.0" project utilizing the OpenWeatherMap API is a mobile application designed to provide users with up-to-date weather information. Users can easily access current weather conditions, forecasts, and related data for current location. This project leverages the OpenWeatherMap API to fetch real-time weather data for current day & forecast of 7 days ahead, making it a valuable tool for users seeking accurate weather information on the go.
 
 
 ## Tech Stack
